@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NeuralMind — Inteligencia Artificial</title>
+  <title> Diseño de Arquitectura de Software</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,15 +16,15 @@
     <div class="header-inner">
       <div class="logo">
         <span class="logo-icon">⬡</span>
-        <span class="logo-text">NeuralMind</span>
+        <span class="logo-text">Diseño de Arquitectura de Software</span>
       </div>
       <!-- nav representa un bloque de enlaces de navegación acá para facilitar el acceso a secciones clave del sitio web -->
       <nav class="main-nav" aria-label="Navegación principal">
         <ul>
           <li><a href="#inicio" class="nav-link active">Inicio</a></li>
-          <li><a href="#que-es" class="nav-link">¿Qué es la IA?</a></li>
-          <li><a href="#aplicaciones" class="nav-link">Aplicaciones</a></li>
-          <li><a href="#futuro" class="nav-link">El Futuro</a></li>
+          <li><a href="#significado" class="nav-link">Significado</a></li>
+          <li><a href="#importante" class="nav-link">Importante</a></li>
+          <li><a href="#historia" class="nav-link">Historia</a></li>
           <li><a href="#contacto" class="nav-link nav-cta">Contacto</a></li>
         </ul>
       </nav>
@@ -40,190 +40,303 @@
     <section id="inicio" class="hero-section">
       <div class="hero-grid-bg" aria-hidden="true"></div>
       <div class="hero-content">
-        <p class="hero-tag">// Era de la Inteligencia Artificial</p>
+        <p class="hero-tag">// Construyendo arquitectura</p>
         <h1 class="hero-title">
           La mente<br />
-          <em>artificial</em><br />
-          que cambia todo
+          <em>del </em><br />
+          diseñador de software
         </h1>
         <p class="hero-description">
-          Exploramos el fascinante mundo de la Inteligencia Artificial: cómo funciona,
-          dónde se aplica hoy y hacia dónde nos lleva en el futuro.
+          Exploramos el fascinante mundo de la programación planificando desde el punto inicial.
         </p>
         <div class="hero-actions">
-          <a href="#que-es" class="btn btn-primary">Explorar ahora</a>
-          <a href="#aplicaciones" class="btn btn-ghost">Ver aplicaciones →</a>
+          <a href="#significado" class="btn btn-primary">Explorar ahora</a>
+          <a href="#importante" class="btn btn-ghost">Importante→</a>
         </div>
       </div>
       <div class="hero-visual" aria-hidden="true">
         <div class="neural-ring ring-1"></div>
         <div class="neural-ring ring-2"></div>
         <div class="neural-ring ring-3"></div>
-        <div class="neural-core">IA</div>
+        <div class="neural-core">AS</div>
       </div>
     </section>
 
-    <!-- ¿QUÉ ES LA IA? -->
-    <section id="que-es" class="info-section"> <!-- Sección informativa que explica el concepto de IA -->
+    <!-- ¿QUÉ ES EL DISEÑO DE ARQUITECTURA? -->
+    <section id="significado" class="info-section"> <!-- Sección informativa que explica el concepto de diseño de arquitectura -->
       <div class="section-inner">
         <header class="section-header">
           <span class="section-tag">01 — Fundamentos</span>
-          <h2 class="section-title">¿Qué es la Inteligencia Artificial?</h2>
+          <h2 class="section-title">¿QUÉ ES EL DISEÑO DE ARQUITECTURA?</h2>
         </header>
         <div class="two-col">
           <div class="col-text">
             <p>
-              La <strong>Inteligencia Artificial (IA)</strong> es una rama de la informática
-              que desarrolla sistemas capaces de realizar tareas que normalmente requieren
-              inteligencia humana: razonar, aprender, planificar, percibir y comprender el lenguaje.
+              La <strong>EL DISEÑO DE ARQUITECTURA</strong> Es la estructura organizacional de un sistema de software. 
+              Define cómo se dividen, organizan y comunican los componentes de una aplicación.
             </p>
             <p>
-              El término fue acuñado por John McCarthy en 1956. Hoy, gracias al aumento del poder
-              de cómputo y la disponibilidad de enormes cantidades de datos, la IA ha pasado de ser
-              ciencia ficción a transformar industrias enteras.
+              Es como el plano de un edificio: sin una buena arquitectura, el software se vuelve difícil de entender, mantener y escalar.
             </p>
             <p>
-              Existen tres grandes categorías:
-              <strong>IA Estrecha</strong> (diseñada para tareas específicas),
-              <strong>IA General</strong> (con capacidades humanas amplias) y
-              <strong>Superinteligencia Artificial</strong> (hipotética, superior al humano en todos los aspectos).
+              La arquitectura de software evolucionó desde instrucciones caóticas en <strong>los años 50</strong> hasta sistemas distribuidos 
+              inteligentes en la actualidad, siempre buscando que el software sea más organizado, escalable y fácil de mantener.
+              
             </p>
           </div>
           <div class="col-cards">
             <div class="mini-card">
-              <span class="mini-card-icon">🧠</span>
-              <h3>Machine Learning</h3>
-              <p>Los sistemas aprenden de los datos sin ser programados explícitamente.</p>
+              <span class="mini-card-icon">🏢</span>
+              <h3>Proceso de Diseño</h3>
+              <p><pre>
+                1. Entender requisitos  
+                2. Identificar componentes
+                3. Definir relaciones
+                4. Elegir patrones
+                5. Documentar
+                6. Validar y revisar</pre></p>
             </div>
             <div class="mini-card">
-              <span class="mini-card-icon">🔗</span>
-              <h3>Deep Learning</h3>
-              <p>Redes neuronales profundas que imitan el cerebro humano en capas.</p>
+              <span class="mini-card-icon">💻</span>
+              <h3>Niveles de Diseño</h3>
+                            <p>
+          <pre>
+              Nivel 1 Sistema (vista general)
+                  [ Usuario ] → [ Aplicación Web ] → [ Base de Datos ]
+              Nivel 2 — Contenedores (apps y servicios)
+                  [ Navegador ]  →  [ API REST ]  →  [ PostgreSQL ]
+                       ↓
+                  [ Redis Cache ]
+              Nivel 3 — Componentes (módulos internos)
+                  API REST
+                  ├── Módulo Autenticación
+                  ├── Módulo Usuarios
+                  ├── Módulo Productos
+                  └── Módulo Pagos
+              Nivel 4 — Código (clases y funciones)
+                  Módulo Usuarios
+                  ├── UserController
+                  ├── UserService
+                  ├── UserRepository
+                  └── UserModel
+                </pre></p>
             </div>
             <div class="mini-card">
-              <span class="mini-card-icon">💬</span>
-              <h3>NLP</h3>
-              <p>Procesamiento del Lenguaje Natural para entender y generar texto.</p>
+              <span class="mini-card-icon">✔️</span>
+              <h3>Decisiones clave en el diseño</h3>
+              <p>1. Escalabilidad</p>
+              <p>2. Comunicación entre componentes</p>
+              <p>3. Almacenamiento de datos</p>
+              <p>4. Seguridad</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- APLICACIONES -->
-    <section id="aplicaciones" class="apps-section">
+    <!-- Importante -->
+    <section id="importante" class="apps-section">
       <div class="section-inner">
         <header class="section-header">
-          <span class="section-tag">02 — Aplicaciones</span>
-          <h2 class="section-title">La IA en el mundo real</h2>
+          <span class="section-tag">02 — importante</span>
+          <h2 class="section-title"> Un buen diseño</h2>
           <p class="section-subtitle">
-            La Inteligencia Artificial ya está presente en casi todos los sectores de nuestra vida.
+            Es el mapa completo del sistema que define lo que se construye, cómo se conecta y con qué tecnologías, 
+            garantizando que sea robusto, seguro y escalable desde el principio.
           </p>
         </header>
         <div class="apps-grid">
           <article class="app-card">
-            <div class="app-icon">🏥</div>
-            <h3>Salud</h3>
+            <div class="app-icon">🔨</div>
+            <h3>Principios de buen diseño - SOLID</h3>
             <p>
-              Diagnóstico de enfermedades con precisión superior a médicos humanos en
-              imágenes radiológicas. Diseño de nuevos fármacos en semanas en lugar de años.
+              S Single Responsibility Principle-Cada módulo hace una sola cosa. </p>      
+            <p>O Open/Closed Principle-Abierto para extender, cerrado para modificar.</p>
+            <p>L Liskov Substitution Principle-Las subclases deben poder reemplazar a las padre.</p>
+            <p>I Interface Segregation Principle-Las subclases deben poder reemplazar a las padre.</p>
+            <p>D Dependency Inversion Principle-Depender de abstracciones, no de implementaciones</p>
             </p>
-            <span class="app-tag">AlphaFold · IBM Watson</span>
+            </article>
+          <article class="app-card">
+            <div class="app-icon">🧩</div>
+            <h3>Otros principio</h3>
+            <p>DRY: Don't Repeat Yourself-no duplicar código.</p>
+            <p>KISS: Keep It Simple—mantenerlo simple.</p>
+            <p>YAGNI: You Aren't Gonna Need It—no construir lo que no se necesita.</p>
+            <p>SoC: Separation of Concerns—separar responsabilidades</p>
+            </p>
+            </article>
+          <article class="app-card">
+            <div class="app-icon">📐</div>
+            <h3>Patrones de Diseño más usados</h3>
+            <p>
+              Creacionales — cómo se crean los objetos.</p>
+              <p>Estructurales — cómo se organizan los componentes.</p>
+              <p>De comportamiento — cómo se comunican los componentes.</p>
+            </p>
           </article>
           <article class="app-card">
-            <div class="app-icon">🚗</div>
-            <h3>Transporte</h3>
+            <div class="app-icon">📊</div>
+            <h3>Diagramas usados en el diseño</h3>
             <p>
-              Vehículos autónomos que interpretan el entorno en tiempo real. Optimización
-              de rutas logísticas para reducir emisiones y costos.
+                          <table border="1">
+              <!-- Fila 1: Encabezados -->
+              <tr>
+                <th>Diagrama</th>
+                <th>Para qué sirve</th>
+              </tr>
+              <!-- Fila 2 -->
+              <tr>
+                <td>Diagrama de componentes</td>
+                <td>Mostrar módulos y relaciones</td>
+              </tr>
+              <!-- Fila 3 -->
+              <tr>
+                <td>Diagrama de secuencia</td>
+                <td>Flujo de comunicación entre partes</td>
+              </tr>
+              <!-- Fila 4 -->
+              <tr>
+                <td>Diagrama de despliegue</td>
+                <td>Infraestructura y servidores</td>
+              </tr>
+              <!-- Fila 5 -->
+              <tr>
+                <td>Diagrama de clases</td>
+                <td>Estructura del código</td>
+              </tr>
+              <!-- Fila 6 -->
+              <tr>
+                <td>Diagrama de flujo</td>
+                <td>Lógica de procesos</td>
+              </tr>
+            </table>
             </p>
-            <span class="app-tag">Tesla Autopilot · Waymo</span>
           </article>
           <article class="app-card">
-            <div class="app-icon">🎨</div>
-            <h3>Creatividad</h3>
+            <div class="app-icon">🛠️</div>
+            <h3>Herramientas populares</h3>
             <p>
-              Generación de imágenes, música, código y texto de alta calidad. Herramientas
-              que amplifican la creatividad humana en lugar de reemplazarla.
+                        <table border="1">
+              <!-- Fila 1: Encabezados -->
+            <tr>
+              <th>Herramienta</th>
+              <th>Usos</th>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+              <td>draw.io</td>
+              <td>Diagramas gratuitos online</td>
+            </tr>
+            <!-- Fila 3 -->
+            <tr>
+              <td>Lucidchart</td>
+              <td>Diagramas colaborativos</td>
+            </tr>
+            <!-- Fila 4 -->
+            <tr>
+              <td>PlantUML</td>
+              <td>Diagramas desde código</td>
+            </tr>
+            <!-- Fila 5 -->
+            <tr>
+              <td>Figma</td>
+              <td>Diseño de interfaces</td>
+            </tr>
+            <!-- Fila 6 -->
+            <tr>
+              <td>Notion / Confluence/td>
+              <td>Documentación</td>
+            </tr>
+            <!-- Fila 7 -->
+            <tr>
+              <td>DGitHub / GitLab</td>
+              <td>Control de versiones del diseño</td>
+            </tr>
+          </table>
             </p>
-            <span class="app-tag">Midjourney · Claude · DALL·E</span>
           </article>
           <article class="app-card">
-            <div class="app-icon">🔒</div>
-            <h3>Ciberseguridad</h3>
-            <p>
-              Detección de amenazas en tiempo real, análisis de comportamiento anómalo
-              y respuesta automatizada a incidentes de seguridad.
+            <div class="app-icon">✅</div>
+            <h3>Checklist de un buen diseño</h3>
+            <p>[ ] ¿Está separado por responsabilidades?
+            <p>[ ] ¿Es escalable?</p>
+            <p>[ ] ¿Es seguro?</p>
+            <p>[ ] ¿Está documentado?</p>
+            <p>[ ] ¿Es fácil de mantener?</p>
+            <p>[ ] ¿Evita duplicación de código?</p>
+            <p>[ ] ¿Tiene un plan para fallos?</p>
+              
             </p>
-            <span class="app-tag">Darktrace · CrowdStrike</span>
-          </article>
-          <article class="app-card">
-            <div class="app-icon">📚</div>
-            <h3>Educación</h3>
-            <p>
-              Tutores virtuales adaptados al ritmo de cada estudiante. Corrección
-              automatizada y retroalimentación personalizada al instante.
-            </p>
-            <span class="app-tag">Khan Academy · Duolingo AI</span>
-          </article>
-          <article class="app-card">
-            <div class="app-icon">🌍</div>
-            <h3>Medio Ambiente</h3>
-            <p>
-              Predicción de desastres naturales, monitoreo de deforestación por satélite
-              y optimización del consumo energético en ciudades inteligentes.
-            </p>
-            <span class="app-tag">Google DeepMind · NASA</span>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- EL FUTURO -->
-    <section id="futuro" class="future-section">
+    <!-- HISTORIA -->
+    <section id="historia" class="history-section">
       <div class="section-inner">
         <header class="section-header">
-          <span class="section-tag">03 — Perspectivas</span>
-          <h2 class="section-title">El futuro de la IA</h2>
+          <span class="section-tag">03 — Historia</span>
+          <h2 class="section-title">Evolución del Diseño de Arquitecturade Software</h2>
         </header>
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>2025–2030: IA Agente</h3>
+              <h3>2 Años 50 — Los inicios</h3>
               <p>
-                Los sistemas de IA pasan de responder preguntas a ejecutar tareas complejas
-                de forma autónoma: investigar, programar, coordinar y tomar decisiones
-                en nombre de los usuarios.
+                No existía arquitectura formal
+
+                  <p>Los programas eran simples instrucciones secuenciales.</p> 
+                  <p>Se programaba directamente en lenguaje máquina y ensamblador.</p>
+                  <p>No había separación de componentes.</p> 
+                  <p>Los programas cabían en tarjetas perforadas.</p> 
               </p>
             </div>
           </div>
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>2030–2040: IA Multimodal Avanzada</h3>
-              <p>
-                Sistemas que integran visión, lenguaje, audio y robótica de manera fluida.
-                La IA comenzará a interactuar con el mundo físico de formas que hoy
-                parecen ciencia ficción.
+              <h3> Años 60 — Primeras estructuras</h3>
+              <p>Nace la programación estructurada</p>
+
+                <p>Se crean los primeros lenguajes de alto nivel: FORTRAN, COBOL, LISP.</p>
+                <p>Edsger Dijkstra propone eliminar el GOTO y estructurar el código.</p>
+                <p>Aparecen las primeras subrutinas y funciones.</p>
+                <p>Surge el concepto de modularidad.</p>
               </p>
             </div>
           </div>
+          
+          
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>2040+: IA General</h3>
-              <p>
-                El mayor desafío técnico y ético de nuestra era. Sistemas con capacidades
-                cognitivas generales requerirán marcos de gobernanza global y un debate
-                profundo sobre los valores que guiarán su desarrollo.
-              </p>
+              <h3>  Años 2020 — Arquitectura moderna
+              </h3>
+              <p>En la actualidad, se observa una evolución en la arquitectura de software con el auge de tecnologías como Serverless, Inteligencia Artificial y Edge Computing.</p>
+
+                <p>Se populariza Serverless (AWS Lambda, Azure Functions).</p>
+                <p> Aparece GraphQL como alternativa a REST.</p>
+                <p>Crece la arquitectura orientada a eventos.</p>
+                <p>Surge el Edge Computing (procesamiento cerca del usuario)</p>
+                <p> La Inteligencia Artificial se integra como componente arquitectónico.</p>
             </div>
           </div>
-        </div>
-        <blockquote class="pull-quote">
-          "La IA es probablemente la cosa más transformadora en la que la humanidad haya
-          trabajado jamás." — Sundar Pichai, CEO de Google
+                           
+        </div>            
+             
+                      <blockquote class="pull-quote">
+              <p>Evolución resumida</p>
+                   <p> 1950s   →  Código espagueti (sin estructura).</p>
+                    <p>1960s   →  Programación estructurada.</p>
+                    <p>1970s   →  Modularidad y abstracción.</p>
+                    <p>1980s   →  POO y arquitectura en capas.</p>
+                    <p>1990s   →  Patrones de diseño y MVC.</p>
+                    <p>2000s   →  SOA, REST y APIs.</p>
+                    <p>2010s   →  Microservicios, Docker, Cloud.</p>
+                    <p>2020s   →  Serverless, Edge, IA integrada.</p>
         </blockquote>
       </div>
     </section>
@@ -237,12 +350,11 @@
             <h2 class="section-title">¿Tienes preguntas?</h2>
           </header>
           <p>
-            Si tienes dudas sobre inteligencia artificial, quieres colaborar en un proyecto
-            o simplemente quieres conversar sobre el tema, escríbenos.
+            Estamos aquí para ayudarte con cualquier pregunta que tengas sobre el diseño de arquitectura de software.
           </p>
           <ul class="contact-details">
-            <li><span>✉</span> hola@neuralmind.io</li>
-            <li><span>📍</span> San Salvador, El Salvador</li>
+            <li><span>✉</span> queli1801@gmail.com</li>
+            <li><span>📍</span> Santo Tomás,San Salvador, El Salvador</li>
             <li><span>🕐</span> Lunes–Viernes, 8am–5pm</li>
           </ul>
         </div>
@@ -259,11 +371,11 @@
             <label for="tema">Tema de interés</label>
             <select id="tema" name="tema" required>
               <option value="" disabled selected>Selecciona un tema</option>
-              <option value="machine-learning">Machine Learning</option>
-              <option value="nlp">Procesamiento de Lenguaje Natural</option>
-              <option value="vision">Visión por Computadora</option>
-              <option value="etica">Ética en la IA</option>
-              <option value="otro">Otro</option>
+              <option value="principios de buen diseño">Principios de buen diseño</option>
+              <option value="patrones de diseño">Patrones de Diseño más usados</option>
+              <option value="diagramas">Diagramas usados en el diseño</option>
+              <option value="herramientas">Herramientas populares</option>
+              <option value="checklist">Checklist de un buen diseño</option>
             </select>
           </div>
           <div class="form-group">
@@ -286,33 +398,33 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <span class="logo-icon">⬡</span>
-        <span class="logo-text">NeuralMind</span>
-        <p>Divulgación de Inteligencia Artificial en español.</p>
+        <span class="logo-text">Diseño de Arquitectura de Software</span>
+        <p>Divulgación de Diseño de Arquitectura de Software en español.</p>
       </div>
       <!-- nav  representa un bloque de enlaces de navegación acá en el pie de página para facilitar el acceso a secciones clave del sitio web -->
       <nav class="footer-nav" aria-label="Navegación del pie de página">   
         <h4>Secciones</h4>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#que-es">¿Qué es la IA?</a></li>
-          <li><a href="#aplicaciones">Aplicaciones</a></li>
-          <li><a href="#futuro">El Futuro</a></li>
+                 <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#significado">Significado</a></li>
+          <li><a href="#importante">Importante</a></li> 
+          <li><a href="#historia">Historia</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
       <div class="footer-topics">
         <h4>Temas</h4>
         <ul>
-          <li>Machine Learning</li>
-          <li>Deep Learning</li>
-          <li>Redes Neuronales</li>
-          <li>NLP</li>
-          <li>Ética en IA</li>
+          <li>Principios de buen diseño</li>
+          <li>Patrones de Diseño más usados</li>
+          <li>Diagramas usados en el diseño</li>
+          <li>Herramientas populares</li>
+          <li>Checklist de un buen diseño</li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 NeuralMind. Actividad evaluada — Desarrollo Web Básico.</p>
+      <p>  Desarrollo Web Básico.</p>
       <p>Construido con HTML5 &amp; CSS3</p><!-- Información de derechos de autor y tecnologías utilizadas en el desarrollo del sitio web -->
     </div>
   </footer>

@@ -1,6 +1,6 @@
 /* ============================================================
-   styles.css — NeuralMind | Inteligencia Artificial
-   Actividad Evaluada: HTML5 + CSS3
+   styles.css — Diseño de Arquitectura de Software
+   Actividad: HTML5 + CSS3
    ============================================================ */
 
 /* ── VARIABLES y RESET ─────────────────────────────────────── */
@@ -75,8 +75,8 @@ h1 { font-size: clamp(2.6rem, 6vw, 5rem); font-weight: 800; }/* El uso de clamp(
 h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; }
 h3 { font-size: 1.15rem; font-weight: 700; }
 p  { color: var(--text-secondary); }
-
-strong { color: var(--accent-cyan); font-weight: 700; }/*
+pre  { color: var(--text-secondary); }
+table { color: var(--text-secondary); }
 
 /* ── DISEÑO COMPARTIDO ──────────────────────────────────────────── */
 .section-inner {/* Clase común para el contenido interno de cada sección, que establece un ancho máximo y centrado para mantener la consistencia en el diseño del sitio web. */
