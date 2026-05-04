@@ -1,0 +1,321 @@
+<!DOCTYPE html> <!--No es una etiqueta HTML como tal, sino una instrucción para el navegador -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuralMind — Inteligencia Artificial</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== Sección para HEADER representa el encabezado introductorio de la página o sección ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">NeuralMind</span>
+      </div>
+      <!-- nav representa un bloque de enlaces de navegación acá para facilitar el acceso a secciones clave del sitio web -->
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#que-es" class="nav-link">¿Qué es la IA?</a></li>
+          <li><a href="#aplicaciones" class="nav-link">Aplicaciones</a></li>
+          <li><a href="#futuro" class="nav-link">El Futuro</a></li>
+          <li><a href="#contacto" class="nav-link nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button> <!-- Icono de hamburguesa para menú móvil, botón con el símbolo ☰ -->    
+    </div>
+  </header>
+
+  <!-- ===== MAIN indica el contenido principal de la página===== -->
+  <main>
+
+    <!-- HERO SECTION Es la primera sección visible al cargar la página. 
+     Su objetivo es capturar la atención inmediatamente y comunicar de qué trata el sitio. -->
+    <section id="inicio" class="hero-section">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-tag">// Era de la Inteligencia Artificial</p>
+        <h1 class="hero-title">
+          La mente<br />
+          <em>artificial</em><br />
+          que cambia todo
+        </h1>
+        <p class="hero-description">
+          Exploramos el fascinante mundo de la Inteligencia Artificial: cómo funciona,
+          dónde se aplica hoy y hacia dónde nos lleva en el futuro.
+        </p>
+        <div class="hero-actions">
+          <a href="#que-es" class="btn btn-primary">Explorar ahora</a>
+          <a href="#aplicaciones" class="btn btn-ghost">Ver aplicaciones →</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="neural-ring ring-1"></div>
+        <div class="neural-ring ring-2"></div>
+        <div class="neural-ring ring-3"></div>
+        <div class="neural-core">IA</div>
+      </div>
+    </section>
+
+    <!-- ¿QUÉ ES LA IA? -->
+    <section id="que-es" class="info-section"> <!-- Sección informativa que explica el concepto de IA -->
+      <div class="section-inner">
+        <header class="section-header">
+          <span class="section-tag">01 — Fundamentos</span>
+          <h2 class="section-title">¿Qué es la Inteligencia Artificial?</h2>
+        </header>
+        <div class="two-col">
+          <div class="col-text">
+            <p>
+              La <strong>Inteligencia Artificial (IA)</strong> es una rama de la informática
+              que desarrolla sistemas capaces de realizar tareas que normalmente requieren
+              inteligencia humana: razonar, aprender, planificar, percibir y comprender el lenguaje.
+            </p>
+            <p>
+              El término fue acuñado por John McCarthy en 1956. Hoy, gracias al aumento del poder
+              de cómputo y la disponibilidad de enormes cantidades de datos, la IA ha pasado de ser
+              ciencia ficción a transformar industrias enteras.
+            </p>
+            <p>
+              Existen tres grandes categorías:
+              <strong>IA Estrecha</strong> (diseñada para tareas específicas),
+              <strong>IA General</strong> (con capacidades humanas amplias) y
+              <strong>Superinteligencia Artificial</strong> (hipotética, superior al humano en todos los aspectos).
+            </p>
+          </div>
+          <div class="col-cards">
+            <div class="mini-card">
+              <span class="mini-card-icon">🧠</span>
+              <h3>Machine Learning</h3>
+              <p>Los sistemas aprenden de los datos sin ser programados explícitamente.</p>
+            </div>
+            <div class="mini-card">
+              <span class="mini-card-icon">🔗</span>
+              <h3>Deep Learning</h3>
+              <p>Redes neuronales profundas que imitan el cerebro humano en capas.</p>
+            </div>
+            <div class="mini-card">
+              <span class="mini-card-icon">💬</span>
+              <h3>NLP</h3>
+              <p>Procesamiento del Lenguaje Natural para entender y generar texto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APLICACIONES -->
+    <section id="aplicaciones" class="apps-section">
+      <div class="section-inner">
+        <header class="section-header">
+          <span class="section-tag">02 — Aplicaciones</span>
+          <h2 class="section-title">La IA en el mundo real</h2>
+          <p class="section-subtitle">
+            La Inteligencia Artificial ya está presente en casi todos los sectores de nuestra vida.
+          </p>
+        </header>
+        <div class="apps-grid">
+          <article class="app-card">
+            <div class="app-icon">🏥</div>
+            <h3>Salud</h3>
+            <p>
+              Diagnóstico de enfermedades con precisión superior a médicos humanos en
+              imágenes radiológicas. Diseño de nuevos fármacos en semanas en lugar de años.
+            </p>
+            <span class="app-tag">AlphaFold · IBM Watson</span>
+          </article>
+          <article class="app-card">
+            <div class="app-icon">🚗</div>
+            <h3>Transporte</h3>
+            <p>
+              Vehículos autónomos que interpretan el entorno en tiempo real. Optimización
+              de rutas logísticas para reducir emisiones y costos.
+            </p>
+            <span class="app-tag">Tesla Autopilot · Waymo</span>
+          </article>
+          <article class="app-card">
+            <div class="app-icon">🎨</div>
+            <h3>Creatividad</h3>
+            <p>
+              Generación de imágenes, música, código y texto de alta calidad. Herramientas
+              que amplifican la creatividad humana en lugar de reemplazarla.
+            </p>
+            <span class="app-tag">Midjourney · Claude · DALL·E</span>
+          </article>
+          <article class="app-card">
+            <div class="app-icon">🔒</div>
+            <h3>Ciberseguridad</h3>
+            <p>
+              Detección de amenazas en tiempo real, análisis de comportamiento anómalo
+              y respuesta automatizada a incidentes de seguridad.
+            </p>
+            <span class="app-tag">Darktrace · CrowdStrike</span>
+          </article>
+          <article class="app-card">
+            <div class="app-icon">📚</div>
+            <h3>Educación</h3>
+            <p>
+              Tutores virtuales adaptados al ritmo de cada estudiante. Corrección
+              automatizada y retroalimentación personalizada al instante.
+            </p>
+            <span class="app-tag">Khan Academy · Duolingo AI</span>
+          </article>
+          <article class="app-card">
+            <div class="app-icon">🌍</div>
+            <h3>Medio Ambiente</h3>
+            <p>
+              Predicción de desastres naturales, monitoreo de deforestación por satélite
+              y optimización del consumo energético en ciudades inteligentes.
+            </p>
+            <span class="app-tag">Google DeepMind · NASA</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EL FUTURO -->
+    <section id="futuro" class="future-section">
+      <div class="section-inner">
+        <header class="section-header">
+          <span class="section-tag">03 — Perspectivas</span>
+          <h2 class="section-title">El futuro de la IA</h2>
+        </header>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2025–2030: IA Agente</h3>
+              <p>
+                Los sistemas de IA pasan de responder preguntas a ejecutar tareas complejas
+                de forma autónoma: investigar, programar, coordinar y tomar decisiones
+                en nombre de los usuarios.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2030–2040: IA Multimodal Avanzada</h3>
+              <p>
+                Sistemas que integran visión, lenguaje, audio y robótica de manera fluida.
+                La IA comenzará a interactuar con el mundo físico de formas que hoy
+                parecen ciencia ficción.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>2040+: IA General</h3>
+              <p>
+                El mayor desafío técnico y ético de nuestra era. Sistemas con capacidades
+                cognitivas generales requerirán marcos de gobernanza global y un debate
+                profundo sobre los valores que guiarán su desarrollo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <blockquote class="pull-quote">
+          "La IA es probablemente la cosa más transformadora en la que la humanidad haya
+          trabajado jamás." — Sundar Pichai, CEO de Google
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto" class="contact-section">
+      <div class="section-inner contact-inner">
+        <div class="contact-info">
+          <header class="section-header">
+            <span class="section-tag">04 — Contacto</span>
+            <h2 class="section-title">¿Tienes preguntas?</h2>
+          </header>
+          <p>
+            Si tienes dudas sobre inteligencia artificial, quieres colaborar en un proyecto
+            o simplemente quieres conversar sobre el tema, escríbenos.
+          </p>
+          <ul class="contact-details">
+            <li><span>✉</span> hola@neuralmind.io</li>
+            <li><span>📍</span> San Salvador, El Salvador</li>
+            <li><span>🕐</span> Lunes–Viernes, 8am–5pm</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="tema">Tema de interés</label>
+            <select id="tema" name="tema" required>
+              <option value="" disabled selected>Selecciona un tema</option>
+              <option value="machine-learning">Machine Learning</option>
+              <option value="nlp">Procesamiento de Lenguaje Natural</option>
+              <option value="vision">Visión por Computadora</option>
+              <option value="etica">Ética en la IA</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" id="privacidad" name="privacidad" required />
+            <label for="privacidad">Acepto la política de privacidad y el tratamiento de mis datos.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Enviar mensaje →</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER Sección de pie de página que contiene información de marca, navegación adicional y derechos de autor===== -->
+  <footer class="site-footer"> 
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">NeuralMind</span>
+        <p>Divulgación de Inteligencia Artificial en español.</p>
+      </div>
+      <!-- nav  representa un bloque de enlaces de navegación acá en el pie de página para facilitar el acceso a secciones clave del sitio web -->
+      <nav class="footer-nav" aria-label="Navegación del pie de página">   
+        <h4>Secciones</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#que-es">¿Qué es la IA?</a></li>
+          <li><a href="#aplicaciones">Aplicaciones</a></li>
+          <li><a href="#futuro">El Futuro</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="footer-topics">
+        <h4>Temas</h4>
+        <ul>
+          <li>Machine Learning</li>
+          <li>Deep Learning</li>
+          <li>Redes Neuronales</li>
+          <li>NLP</li>
+          <li>Ética en IA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 NeuralMind. Actividad evaluada — Desarrollo Web Básico.</p>
+      <p>Construido con HTML5 &amp; CSS3</p><!-- Información de derechos de autor y tecnologías utilizadas en el desarrollo del sitio web -->
+    </div>
+  </footer>
+
+</body>
+</html>
